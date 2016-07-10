@@ -1,0 +1,202 @@
+/*!
+ * Bootstrap Docs (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under the Creative Commons Attribution 3.0 Unported License. For
+ * details, see http://creativecommons.org/licenses/by/3.0/.
+ */
+body {
+	position: relative
+}
+.table code {
+	font-size: 13px;
+	font-weight: 400
+}
+.btn-outline {
+	color: #563d7c;
+	background-color: transparent;
+	border-color: #563d7c
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+	color: #fff;
+	background-color: #563d7c;
+	border-color: #563d7c
+}
+.btn-outline-inverse {
+	color: #fff;
+	background-color: transparent;
+	border-color: #ffffff
+}
+.btn-outline-inverse:hover, .btn-outline-inverse:focus, .btn-outline-inverse:active {
+	color: #5f8295;
+	text-shadow: none;
+	background-color: #fff;
+	border-color: #fff
+}
+.es-docs-booticon {
+	display: block;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	cursor: default;
+	background-color: #547383;
+	border-radius: 15%
+}
+.es-docs-booticon-sm {
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 28px
+}
+.es-docs-booticon-lg {
+	width: 144px;
+	height: 144px;
+	line-height: 140px
+}
+.es-docs-booticon-inverse {
+	color: #563d7c;
+	background-color: #fff
+}
+.es-docs-booticon-outline {
+	background-color: transparent;
+	border: 1px solid #cdbfe3
+}
+.es-docs-nav {
+	margin-bottom: 0;
+	background-color: #fff;
+	border-bottom: 0
+}
+.es-home-nav .es-nav-b {
+	display: none
+}
+.es-docs-nav .navbar-brand, .es-docs-nav .navbar-nav > li > a {
+	font-weight: 500;
+	color: #5f8295
+}
+.es-docs-nav .navbar-nav > li > a:hover, .es-docs-nav .navbar-nav > .active > a, .es-docs-nav .navbar-nav > .active > a:hover {
+	color: #463265;
+	background-color: #f9f9f9
+}
+.es-docs-nav .navbar-toggle .icon-bar {
+	background-color: #563d7c
+}
+.es-docs-nav .navbar-header .navbar-toggle {
+	border-color: #fff
+}
+.es-docs-nav .navbar-header .navbar-toggle:hover, .es-docs-nav .navbar-header .navbar-toggle:focus {
+	background-color: #f9f9f9;
+	border-color: #f9f9f9
+}
+.es-docs-footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 100px;
+	color: #777;
+	text-align: center;
+	border-top: 1px solid #e5e5e5
+}
+.es-docs-footer-links {
+	padding-left: 0;
+	margin-top: 20px;
+	color: #999
+}
+.es-docs-footer-links li {
+	display: inline;
+	padding: 0 2px
+}
+.es-docs-footer-links li:first-child {
+	padding-left: 0
+}
+@media (min-width: 768px) {
+	.es-docs-footer p {
+		margin-bottom: 0
+	}
+}
+.es-docs-social {
+	margin-bottom: 20px;
+	text-align: center
+}
+.es-docs-social-buttons {
+	display: inline-block;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none
+}
+.es-docs-social-buttons li {
+	display: inline-block;
+	padding: 5px 8px;
+	line-height: 1
+}
+.es-docs-social-buttons .twitter-follow-button {
+	width: 225px !important
+}
+.es-docs-social-buttons .twitter-share-button {
+	width: 98px !important
+}
+.github-btn {
+	overflow: hidden;
+	border: 0
+}
+.es-docs-masthead, .es-docs-header {
+	position: relative;
+	padding: 30px 15px;
+	color: #cdbfe3;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+	background-color: #7c9bab;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#5f8295 ),to(#7c9bab));
+	background-image: -webkit-linear-gradient(top,#5f8295  0,#7c9bab 100%);
+	background-image: -o-linear-gradient(top,#5f8295  0,#7c9bab 100%);
+	background-image: linear-gradient(to bottom,#5f8295  0,#7c9bab 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f8295 ', endColorstr='#7c9bab', GradientType=0);
+	background-repeat: repeat-x
+}
+.es-docs-masthead .es-docs-booticon {
+	margin: 0 auto 30px
+}
+.es-docs-masthead h1 {
+	font-weight: 300;
+	line-height: 1;
+	color: #fff
+}
+.es-docs-masthead .lead {
+	margin: 0 auto 30px;
+	font-size: 20px;
+	color: #fff
+}
+.es-docs-masthead .version {
+	margin-top: -15px;
+	margin-bottom: 30px;
+	color: #C4D1D9
+}
+.es-docs-masthead .btn {
+	width: 100%;
+	padding: 15px 30px;
+	font-size: 20px
+}
+@media (min-width: 480px) {
+	.es-docs-masthead .btn {
+		width: auto
+	}
+}
+@media (min-width: 768px) {
+	.es-docs-masthead {
+		padding: 80px 0
+	}
+	.es-docs-masthead h1 {
+		font-size: 60px
+	}
+	.es-docs-masthead .lead {
+		font-size: 24px
+	}
+}
+@media (min-width: 992px) {
+	.es-docs-masthead .lead {
+		width: 80%;
+		font-size: 30px
+	}
+}
+
+.prettyprint {
+	max-height: 400px !important;
+	overflow-x: auto !important;
+}
